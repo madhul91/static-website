@@ -34,10 +34,9 @@ This project demonstrates the complete workflow of containerizing a simple web a
 ├── Dockerfile
 └── README.md
 
-yaml
-Copy code
 
----
+--- 
+## DockerFile 
 
 **FROM nginx:alpine**  
 **COPY index.html /usr/share/nginx/html/index.html**  
